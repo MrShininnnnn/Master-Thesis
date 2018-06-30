@@ -27,7 +27,7 @@ class dataGeneration():
 		doi_list = list(set(self.doi_list))
 		raw_data = {INDEX: doi_list}
 		raw_data_df = pd.DataFrame(raw_data, columns=[INDEX])
-		raw_data_df.to_csv(OUT)
+		raw_data_df.to_csv(OUT, encoding = 'utf-8', index = False)
 
 def main():
 

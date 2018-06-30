@@ -123,7 +123,7 @@ class mendeleyAPI(object):
 
 	def outPut(self, out_df):
 
-		out_df.to_csv(OUT, encoding = 'utf-8')
+		out_df.to_csv(OUT, encoding = 'utf-8', index = False)
 
 def main():
 

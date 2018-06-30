@@ -1,0 +1,829 @@
+2018-06-29 13:12:58,347 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:12:58,349 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:12:58,350 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:12:58,351 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:12:58,353 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:13:15,050 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:13:15,052 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:13:15,052 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:13:15,053 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:13:15,054 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:13:16,055 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/36841916200
+2018-06-29 13:13:16,297 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/36841916200
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:13:40,063 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:13:40,065 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:13:40,066 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:13:40,067 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:13:40,068 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:13:41,067 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004367821
+2018-06-29 13:13:41,243 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004367821
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:14:05,400 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:14:05,403 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:14:05,403 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:14:05,404 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:14:05,405 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:14:06,404 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004367821
+2018-06-29 13:14:06,586 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004367821
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:14:18,192 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:14:18,193 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:14:18,193 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:14:18,194 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:14:18,194 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:14:33,354 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:14:33,354 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:14:33,355 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:14:33,355 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:14:33,356 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:14:34,357 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004367821
+2018-06-29 13:14:34,511 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004367821
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:14:53,941 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:14:53,942 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:14:53,943 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:14:53,944 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:14:53,945 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:15:17,044 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:15:17,045 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:15:17,045 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:15:17,045 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:15:17,046 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:15:36,462 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:15:36,463 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:15:36,463 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:15:36,464 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:15:36,464 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:18:13,530 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:18:13,531 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:18:13,533 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:18:13,534 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:18:13,535 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:18:14,534 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/36841916200.0
+2018-06-29 13:18:14,743 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/36841916200.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:15,746 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6701707333.0
+2018-06-29 13:18:15,856 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6701707333.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:16,861 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6603960566.0
+2018-06-29 13:18:17,082 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6603960566.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:18,084 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35317939800.0
+2018-06-29 13:18:18,197 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/35317939800.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:19,200 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/55717100700.0
+2018-06-29 13:18:19,326 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/55717100700.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:20,327 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35173123800.0
+2018-06-29 13:18:20,428 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/35173123800.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:21,433 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35242128300.0
+2018-06-29 13:18:21,545 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/35242128300.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:22,546 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/14035781300.0
+2018-06-29 13:18:22,760 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/14035781300.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:23,761 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/14037269100.0
+2018-06-29 13:18:23,924 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/14037269100.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:24,924 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/23097471600.0
+2018-06-29 13:18:25,088 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/23097471600.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:26,092 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004529277.0
+2018-06-29 13:18:26,224 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004529277.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:27,228 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/15019842300.0
+2018-06-29 13:18:27,324 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/15019842300.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:28,327 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/55917809500.0
+2018-06-29 13:18:28,433 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/55917809500.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:29,436 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7101717447.0
+2018-06-29 13:18:29,601 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7101717447.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:30,606 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6603261058.0
+2018-06-29 13:18:30,716 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6603261058.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:31,719 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/36802413000.0
+2018-06-29 13:18:31,954 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/36802413000.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:32,955 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6506192864.0
+2018-06-29 13:18:33,465 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6506192864.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:34,469 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/55470808800.0
+2018-06-29 13:18:34,720 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/55470808800.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:35,724 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/55175275600.0
+2018-06-29 13:18:35,836 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/55175275600.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:36,840 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57040297400.0
+2018-06-29 13:18:36,953 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/57040297400.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:37,953 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8964133100.0
+2018-06-29 13:18:38,307 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/8964133100.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:39,311 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6701407602.0
+2018-06-29 13:18:39,411 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6701407602.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:40,415 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004628826.0
+2018-06-29 13:18:40,536 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004628826.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:41,537 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56224800200.0
+2018-06-29 13:18:41,662 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/56224800200.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:42,664 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/34867931500.0
+2018-06-29 13:18:42,790 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/34867931500.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:43,793 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7401939711.0
+2018-06-29 13:18:43,910 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7401939711.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:44,913 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/36929980500.0
+2018-06-29 13:18:45,069 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/36929980500.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:46,073 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/47160966400.0
+2018-06-29 13:18:46,174 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/47160966400.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:47,176 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7801312686.0
+2018-06-29 13:18:47,350 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7801312686.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:48,352 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57197600989.0
+2018-06-29 13:18:48,461 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/57197600989.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:49,463 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/nan
+2018-06-29 13:18:49,627 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/nan
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:50,632 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/16052722400.0
+2018-06-29 13:18:50,790 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/16052722400.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:51,793 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/22834167900.0
+2018-06-29 13:18:51,925 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/22834167900.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:52,927 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/nan
+2018-06-29 13:18:53,164 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/nan
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:54,168 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/24448743100.0
+2018-06-29 13:18:54,329 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/24448743100.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:55,333 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6603304473.0
+2018-06-29 13:18:55,446 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6603304473.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:56,447 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35965970600.0
+2018-06-29 13:18:56,816 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/35965970600.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:57,820 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/26321842300.0
+2018-06-29 13:18:57,924 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/26321842300.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:18:58,928 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57154828200.0
+2018-06-29 13:18:59,215 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/57154828200.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:00,219 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/16176951500.0
+2018-06-29 13:19:00,421 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/16176951500.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:01,426 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56126274300.0
+2018-06-29 13:19:01,551 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/56126274300.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:02,555 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6603943499.0
+2018-06-29 13:19:02,656 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6603943499.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:03,660 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/25723423400.0
+2018-06-29 13:19:03,780 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/25723423400.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:04,784 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/34874658600.0
+2018-06-29 13:19:04,906 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/34874658600.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:05,909 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7801441765.0
+2018-06-29 13:19:06,195 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7801441765.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:07,198 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/34167491600.0
+2018-06-29 13:19:07,310 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/34167491600.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:08,314 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6603331991.0
+2018-06-29 13:19:08,435 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6603331991.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:09,438 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35239548700.0
+2018-06-29 13:19:09,586 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/35239548700.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:10,590 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004091305.0
+2018-06-29 13:19:10,695 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004091305.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:11,696 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56032064100.0
+2018-06-29 13:19:11,810 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/56032064100.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:19:12,813 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/22034197400.0
+2018-06-29 13:19:12,919 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/22034197400.0
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:20:22,442 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:20:22,443 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:20:22,443 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:20:22,444 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:20:22,444 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:20:23,442 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6701858763
+2018-06-29 13:20:23,580 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6701858763
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:21:02,870 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:21:02,871 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:21:02,871 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:21:02,872 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:21:02,872 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:21:03,871 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6701858763
+2018-06-29 13:21:04,058 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/6701858763
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:21:15,227 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:21:15,227 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:21:15,228 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:21:15,228 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:21:15,229 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:21:16,227 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/84869446581
+2018-06-29 13:21:16,372 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/84869446581
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:24:48,438 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:24:48,439 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:24:48,439 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:24:48,440 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:24:48,440 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:24:49,442 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/S1525-1578(10)60571-5
+2018-06-29 13:24:50,117 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/S1525-1578(10)60571-5
+2018-06-29 13:25:30,339 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:25:30,340 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:25:30,340 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:25:30,341 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:25:30,341 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:25:31,340 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1080/01449291003611326
+2018-06-29 13:25:31,605 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1080/01449291003611326
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2018-06-29 13:25:51,465 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:25:51,465 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:25:51,466 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:25:51,466 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:25:51,467 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:25:52,467 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1145/2611567
+2018-06-29 13:25:52,726 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1145/2611567
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2018-06-29 13:26:37,743 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:26:37,744 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:26:37,744 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:26:37,744 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:26:37,745 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:26:38,747 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/77957951836
+2018-06-29 13:26:38,896 - elsapy.elsentity - WARNING - HTTP 429 Error from https://api.elsevier.com/content/abstract/scopus_id/77957951836
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"QUOTA_EXCEEDED","statusText":"Quota Exceeded"}}}
+2018-06-29 13:26:53,338 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:26:53,339 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:26:53,339 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:26:53,340 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:26:53,340 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:26:54,341 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/77957951836
+2018-06-29 13:26:54,500 - elsapy.elsentity - WARNING - HTTP 429 Error from https://api.elsevier.com/content/abstract/scopus_id/77957951836
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"QUOTA_EXCEEDED","statusText":"Quota Exceeded"}}}
+2018-06-29 13:28:00,475 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:28:00,476 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:28:00,476 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:28:00,477 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:28:00,477 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:28:01,479 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/70449579437
+2018-06-29 13:28:01,636 - elsapy.elsentity - WARNING - HTTP 429 Error from https://api.elsevier.com/content/abstract/scopus_id/70449579437
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"QUOTA_EXCEEDED","statusText":"Quota Exceeded"}}}
+2018-06-29 13:28:43,405 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:28:43,410 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:28:43,413 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:28:43,413 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:28:43,414 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:28:44,410 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/70449579437
+2018-06-29 13:28:44,554 - elsapy.elsentity - WARNING - HTTP 429 Error from https://api.elsevier.com/content/abstract/scopus_id/70449579437
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"QUOTA_EXCEEDED","statusText":"Quota Exceeded"}}}
+2018-06-29 13:28:53,967 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:28:53,968 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:28:53,968 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:28:53,969 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:28:53,969 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:28:54,973 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/asd
+2018-06-29 13:28:55,131 - elsapy.elsentity - WARNING - HTTP 429 Error from https://api.elsevier.com/content/abstract/scopus_id/asd
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"QUOTA_EXCEEDED","statusText":"Quota Exceeded"}}}
+2018-06-29 13:29:17,650 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:29:17,651 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:29:17,651 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:29:17,652 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:29:17,652 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:29:18,654 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84872135457
+2018-06-29 13:29:18,809 - elsapy.elsentity - WARNING - HTTP 429 Error from https://api.elsevier.com/content/abstract/scopus_id/84872135457
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"QUOTA_EXCEEDED","statusText":"Quota Exceeded"}}}
+2018-06-29 13:29:27,731 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:29:27,732 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:29:27,732 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:29:27,733 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:29:27,734 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:29:28,736 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84872135457
+2018-06-29 13:29:29,038 - elsapy.elsentity - WARNING - HTTP 429 Error from https://api.elsevier.com/content/abstract/scopus_id/84872135457
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"QUOTA_EXCEEDED","statusText":"Quota Exceeded"}}}
+2018-06-29 13:30:03,718 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:30:03,718 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:30:03,719 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:30:03,719 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:30:03,720 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:30:04,720 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84872135457
+2018-06-29 13:30:04,848 - elsapy.elsentity - WARNING - HTTP 429 Error from https://api.elsevier.com/content/abstract/scopus_id/84872135457
+and using headers {'X-ELS-APIKey': '70079e73037df38971fbde7c867be473', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"QUOTA_EXCEEDED","statusText":"Quota Exceeded"}}}
+2018-06-29 13:31:55,599 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:31:55,602 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:31:55,602 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:31:55,603 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:31:55,604 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:31:56,603 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84872135457
+2018-06-29 13:31:57,128 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84872135457
+2018-06-29 13:32:11,168 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:32:11,169 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:32:11,169 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:32:11,170 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:32:11,170 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:32:12,172 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:32:12,539 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:32:37,052 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:32:37,052 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:32:37,053 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:32:37,053 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:32:37,053 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:32:38,052 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/84869446581
+2018-06-29 13:32:38,177 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/84869446581
+and using headers {'X-ELS-APIKey': '7ee5f1b664fdd95c8c8435fc667e1e85', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:32:58,439 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:32:58,439 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:32:58,440 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:32:58,440 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:32:58,441 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:32:59,443 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/36841916200
+2018-06-29 13:32:59,606 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/36841916200
+and using headers {'X-ELS-APIKey': '7ee5f1b664fdd95c8c8435fc667e1e85', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:33:39,513 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:33:39,514 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:33:39,514 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:33:39,515 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:33:39,515 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:33:40,515 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004367821
+2018-06-29 13:33:40,706 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004367821
+and using headers {'X-ELS-APIKey': '7ee5f1b664fdd95c8c8435fc667e1e85', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:33:51,132 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:33:51,133 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:33:51,133 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:33:51,133 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:33:51,134 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:33:52,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:33:52,720 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:34:17,005 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:34:17,005 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:34:17,006 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:34:17,006 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:34:17,007 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:34:18,008 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:34:18,642 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:34:28,023 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:34:28,024 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:34:28,024 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:34:28,025 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:34:28,025 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:34:29,025 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:34:29,583 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:34:49,090 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:34:49,091 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:34:49,091 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:34:49,091 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:34:49,092 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:34:50,093 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:34:50,985 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:34:55,516 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:34:55,517 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:34:55,517 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:34:55,518 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:34:55,518 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:34:56,521 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:34:57,130 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:38:03,295 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:38:03,296 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:38:03,296 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:38:03,296 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:38:03,297 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:38:04,297 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:38:04,960 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:38:05,960 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:38:06,366 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:38:22,952 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:38:22,953 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:38:22,953 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:38:22,954 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:38:22,955 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:38:23,957 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:38:24,491 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:38:33,023 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:38:33,023 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:38:33,024 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:38:33,024 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:38:33,025 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:38:34,027 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:38:34,548 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84873447608
+2018-06-29 13:43:11,613 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:43:11,618 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:43:11,618 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:43:11,619 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:43:11,619 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:43:20,548 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:43:20,549 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:43:20,549 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:43:20,550 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:43:20,550 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:43:21,550 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/14035781300
+2018-06-29 13:43:21,726 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/14035781300
+and using headers {'X-ELS-APIKey': '7ee5f1b664fdd95c8c8435fc667e1e85', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:43:47,533 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:43:47,533 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:43:47,534 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:43:47,534 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:43:47,535 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:43:48,533 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/14035781300
+2018-06-29 13:43:48,705 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/14035781300
+and using headers {'X-ELS-APIKey': '7ee5f1b664fdd95c8c8435fc667e1e85', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:44:08,635 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:44:08,636 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:44:08,636 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:44:08,636 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:44:08,637 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:44:09,639 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/14035781300
+2018-06-29 13:44:09,799 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/14035781300
+and using headers {'X-ELS-APIKey': '7ee5f1b664fdd95c8c8435fc667e1e85', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:46:29,390 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:46:29,391 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:46:29,391 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:46:29,391 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:46:29,392 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:46:30,394 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/9-s2.0-14035781300
+2018-06-29 13:46:30,577 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/9-s2.0-14035781300
+and using headers {'X-ELS-APIKey': '7ee5f1b664fdd95c8c8435fc667e1e85', 'User-Agent': 'elsapy-v0.4.6', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2018-06-29 13:51:12,530 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:51:12,531 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:51:12,531 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:51:12,531 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:51:12,532 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:51:23,341 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:51:23,342 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:51:23,342 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:51:23,343 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:51:23,343 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:54:48,190 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:54:48,191 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:54:48,191 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:54:48,191 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:54:48,192 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:54:59,662 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:54:59,663 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:54:59,663 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:54:59,664 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:54:59,664 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:55:14,607 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:55:14,608 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:55:14,608 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:55:14,609 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:55:14,609 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:55:45,219 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:55:45,219 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:55:45,220 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:55:45,220 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:55:45,221 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:57:29,106 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:57:29,107 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:57:29,107 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:57:29,107 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:57:29,108 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:57:37,966 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:57:37,966 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:57:37,967 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:57:37,967 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:57:37,968 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:57:47,228 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:57:47,229 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:57:47,229 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:57:47,230 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:57:47,230 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:58:17,581 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:58:17,582 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:58:17,582 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:58:17,583 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:58:17,583 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:58:24,820 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:58:24,821 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:58:24,821 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:58:24,822 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:58:24,822 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 13:59:46,403 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 13:59:46,404 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 13:59:46,404 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 13:59:46,404 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 13:59:46,405 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:06:11,686 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:06:11,687 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:06:11,687 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:06:11,687 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:06:11,688 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:07:07,448 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:07:07,449 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:07:07,449 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:07:07,450 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:07:07,450 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:07:21,360 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:07:21,361 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:07:21,361 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:07:21,361 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:07:21,362 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:07:36,233 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:07:36,234 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:07:36,234 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:07:36,235 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:07:36,235 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:12:34,884 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:12:34,885 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:12:34,885 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:12:34,885 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:12:34,886 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:13:06,803 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:13:06,804 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:13:06,804 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:13:06,805 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:13:06,805 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:13:31,590 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:13:31,590 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:13:31,591 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:13:31,591 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:13:31,592 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:16:18,258 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:16:18,259 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:16:18,259 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:16:18,260 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:16:18,260 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:16:32,303 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:16:32,304 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:16:32,304 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:16:32,305 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:16:32,305 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:16:41,516 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:16:41,516 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:16:41,516 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:16:41,517 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:16:41,518 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:20:51,487 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:20:51,488 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:20:51,488 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:20:51,489 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:20:51,489 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:32:27,369 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:32:27,370 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:32:27,370 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:32:27,371 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:32:27,371 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:32:40,961 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:32:40,961 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:32:40,962 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:32:40,962 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:32:40,963 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:32:56,880 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:32:56,881 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:32:56,881 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:32:56,882 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:32:56,882 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:33:09,680 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:33:09,680 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:33:09,681 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:33:09,681 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:33:09,682 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:33:38,576 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:33:38,576 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:33:38,577 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:33:38,577 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:33:38,578 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:36:34,974 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:36:34,975 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:36:34,975 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:36:34,976 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:36:34,976 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:36:53,217 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:36:53,217 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:36:53,218 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:36:53,218 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:36:53,219 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:40:01,110 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:40:01,110 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:40:01,111 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:40:01,111 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:40:01,112 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:40:21,197 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:40:21,198 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:40:21,198 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:40:21,198 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:40:21,199 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:41:09,793 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:41:09,794 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:41:09,794 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:41:09,795 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:41:09,795 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:42:02,947 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:42:02,948 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:42:02,948 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:42:02,948 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:42:02,949 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:42:25,055 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:42:25,055 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:42:25,056 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:42:25,056 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:42:25,057 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:42:33,752 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:42:33,753 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:42:33,753 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:42:33,754 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:42:33,754 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:42:44,029 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:42:44,030 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:42:44,030 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:42:44,030 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:42:44,031 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:43:29,175 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:43:29,186 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:43:29,187 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:43:29,188 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:43:29,188 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:46:31,154 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:46:31,155 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:46:31,155 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:46:31,156 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:46:31,156 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:48:37,788 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:48:37,789 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:48:37,789 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:48:37,789 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:48:37,790 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:48:54,325 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:48:54,326 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:48:54,326 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:48:54,326 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:48:54,327 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:49:11,331 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:49:11,332 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:49:11,332 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:49:11,333 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:49:11,333 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:49:50,329 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:49:50,330 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:49:50,330 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:49:50,331 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:49:50,331 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:50:15,760 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:50:15,760 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:50:15,761 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:50:15,761 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:50:15,762 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:51:29,349 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:51:29,350 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:51:29,350 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:51:29,351 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:51:29,351 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:51:54,161 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:51:54,162 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:51:54,162 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:51:54,163 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:51:54,163 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:56:09,961 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:56:09,962 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:56:09,962 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:56:09,963 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:56:09,963 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:56:23,892 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:56:23,893 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:56:23,893 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:56:23,894 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:56:23,894 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:56:34,416 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:56:34,417 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:56:34,417 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:56:34,417 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:56:34,418 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:56:40,100 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:56:40,100 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:56:40,101 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:56:40,101 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:56:40,102 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:57:03,510 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:57:03,510 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:57:03,511 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:57:03,511 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:57:03,512 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 14:58:36,028 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 14:58:36,029 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 14:58:36,029 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 14:58:36,030 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 14:58:36,030 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 15:00:04,714 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 15:00:04,714 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 15:00:04,715 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 15:00:04,715 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 15:00:04,716 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 15:01:40,164 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 15:01:40,164 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 15:01:40,164 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 15:01:40,165 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 15:01:40,165 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 15:01:45,942 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 15:01:45,942 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 15:01:45,943 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 15:01:45,943 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 15:01:45,944 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 15:04:54,790 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 15:04:54,791 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 15:04:54,791 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 15:04:54,792 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 15:04:54,792 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 15:05:15,034 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 15:05:15,034 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 15:05:15,035 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 15:05:15,035 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 15:05:15,036 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 15:05:38,818 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 15:05:38,819 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 15:05:38,819 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 15:05:38,820 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 15:05:38,820 - elsapy.elssearch - INFO - Module loaded.
+2018-06-29 15:05:56,108 - elsapy.elsclient - INFO - Module loaded.
+2018-06-29 15:05:56,109 - elsapy.elsentity - INFO - Module loaded.
+2018-06-29 15:05:56,109 - elsapy.elsprofile - INFO - Module loaded.
+2018-06-29 15:05:56,110 - elsapy.elsdoc - INFO - Module loaded.
+2018-06-29 15:05:56,110 - elsapy.elssearch - INFO - Module loaded.

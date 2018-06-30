@@ -1,8 +1,9 @@
-INPUT = 'data/scopus_set_authors.csv'
-OUT = 'data/scopus_set_authors.csv'
+INPUT = 'data/cleaned_sample_set_authors.csv'
+OUT = 'data/cleaned_sample_set_aff.csv'
 
-import scholarly
 import pandas as pd
+import requests, json, time
+from bs4 import BeautifulSoup as bs
 
 class scopusAPI(object):
 	"""docstring for mendeleyAPI"""
@@ -15,106 +16,111 @@ class scopusAPI(object):
 
 		return pd.read_csv(INPUT)
 
-	# def genName(self):
+	def nanCheck(self, num):
 
-	# 	raw_df = self.raw_df
-	# 	given_name_list = raw_df['given-name']
-	# 	sur_name_list = raw_df['sur_name']
-	# 	authors_list = raw_df['authors']
+		try:
+			return str(int(num))
+		except:
+			return False
 
-	# 	first_name_list = []
-	# 	last_name_list = []
+	def textMining(self, resp):
 
-	# 	for i in range(len(given_name_list)):
-	# 		authors = authors_list[i]
-	# 		g_name = given_name_list[i]
-	# 		s_name = sur_name_list[i]
-	# 		if (type(g_name) is not str or type(s_name) is not str) and (type(authors) is str):
-	# 			full_name = []
-	# 			for item in authors.split("'"):
-	# 				if '(' not in item and ')' not in item and ',' not in item:
-	# 					full_name.append(item)
-	# 			first_name_list.append(full_name[0])
-	# 			last_name_list.append(full_name[-1])
-	# 		else:
-	# 			first_name_list.append(g_name)
-	# 			last_name_list.append(s_name)
+		affiliation = False
+		doc_total = False
+		cit_by_doc = False
+		co_authors_total = False
 
-	# 	raw_df['given-name'] = first_name_list
-	# 	raw_df['sur_name'] = last_name_list
+		soup = bs(resp.text, 'html5lib')
+		for script in soup(['script', 'style']):
+			script.extract()
+		text = soup.get_text()
+		lines = (line.strip() for line in text.splitlines())
+		chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+		
+		text_join = ' '.join(chunk for chunk in chunks if chunk)
+		h_index = text_join.split('View h-graph ')[-1].split(' ')[0]
+		print('h_index:', h_index)
+		affiliation = text_join.split('affiliation Location ')[-1].split(',')[0]
+		print('affiliation:', affiliation)
 
-	# 	return raw_df
+		for line in text.split('\n'):
+			if 'Documents' in line and 'author' not in line and 'Review' not in line and not doc_total:
+				doc_total = line.split(' ')[0]
+				print('doc_total: ', doc_total)
+			elif 'documents' in line and 'Cited by' in line and not cit_by_doc:
+				cit_by_doc = line.split(' ')[2]
+				print('cit_by_doc: ', cit_by_doc)
+			elif 'co-authors' in line and not co_authors_total:
+				co_authors_total = line.split(' ')[0]
+				print('co_authors_total: ', co_authors_total)
+			else:
+				pass
 
-	# def scopusID(self, scopus):
+		if not doc_total:
+			doc_total = '0'
+		if not cit_by_doc:
+			cit_by_doc = '0'
+		if not co_authors_total:
+			co_authors_total = '0'
+		if not affiliation:
+			affiliation = ''
 
-	# 	return scopus.split('-')[-1]
+		return h_index, doc_total, cit_by_doc, co_authors_total, affiliation
 
 	def genAuthors(self):
 
 		raw_df = self.raw_df
-		first_name_list = raw_df['given-name'].values.tolist()
-		last_name_list = raw_df['sur_name'].values.tolist()
+		author_id_list = self.raw_df['author_id'].values.tolist()
 
-		affiliation_list = raw_df['author_affiliation'].values.tolist()
-		author_citeby_list = raw_df['author_citeby'].values.tolist()
-		email_list = raw_df['author_email'].values.tolist()
+		# Load configuration
+		con_file = open("config.json")
+		config = json.load(con_file)
+		con_file.close()
 
-		full_name = '%s, %s' % (first_name_list[1], last_name_list[1])
-		print(full_name)
-		author_data = self.genScholars(full_name)
-		search_query = scholarly.search_author(full_name)
-		print(next(search_query))
+		headers = {"X-ELS-APIKey": config['apikey'], "Accept": 'application/json'}
 
+		index = len(author_id_list)
 
-		# for i in range(len(first_name_list)):
-		# 	full_name = '%s, %s' % (first_name_list[i], last_name_list[i])
-		# 	if affiliation_list[i] == 0:
-		# 		# 'affiliation', 'citedby', 'email'
-		# 		author_data = self.genScholars(full_name)
-		# 		if author_data:
-		# 			if hasattr(author_data, 'affiliation'):
-		# 				affiliation_list[i] = author_data.affiliation
-		# 			else:
-		# 				affiliation_list[i] = ''
-		# 			if hasattr(author_data, 'citedby'):
-		# 				author_citeby_list[i] = author_data.citedby
-		# 			else:
-		# 				affiliation_list[i] = ''
-		# 			if hasattr(author_data, 'email'):
-		# 				email_list[i] = author_data.email
-		# 			else:
-		# 				email_list[i] = ''
-		# 		else:
-		# 			affiliation_list[i] = ''
-		# 			author_citeby_list[i] = ''
-		# 			email_list[i] = ''
-		# 	else:
-		# 		pass
+		h_index_list = ['0'] * index
+		doc_total_list = ['0'] * index
+		cit_by_doc_list = ['0'] * index
+		co_authors_total_list = ['0'] * index
+		affiliation_list = [''] * index
 
-		# 	raw_df['author_affiliation'] = affiliation_list
-		# 	raw_df['author_citeby'] = author_citeby_list
-		# 	raw_df['author_email'] = email_list
+		for i in range(index):
+			print(i)
+			author_id = self.nanCheck(author_id_list[i])
+			if author_id:
+				print('author_id: ', author_id)
+				resp = requests.get("https://www.scopus.com/authid/detail.uri?authorId=%s" % (author_id), headers= headers)
+				h_index, doc_total, cit_by_doc, co_authors_total, affiliation = self.textMining(resp)
+				h_index_list[i] = h_index
+				doc_total_list[i] = doc_total
+				cit_by_doc_list[i] = cit_by_doc
+				co_authors_total_list[i] = co_authors_total
+				affiliation_list[i] = affiliation
+			else:
+				pass
+			print('\n')
 
-		# 	if i % 10 == 0:
-		# 		scopusAPI().outPut(raw_df)
-		# 	else:
-		# 		pass
+			if i % 25 == 0:
+				raw_df['h_index'] = h_index_list
+				raw_df['doc_total'] = doc_total_list
+				raw_df['cit_by_doc'] = cit_by_doc_list
+				raw_df['co_authors_total'] = co_authors_total_list
+				raw_df['affiliation'] = affiliation_list
+				self.outPut(raw_df)
 
-		# 	print(i)
-
-		# scopusAPI().outPut(raw_df)
-
-	def genScholars(self, full_name):
-
-		search_query = scholarly.search_author(full_name)
-		try:
-			return next(search_query)
-		except:
-			return False
+		raw_df['h_index'] = h_index_list
+		raw_df['doc_total'] = doc_total_list
+		raw_df['cit_by_doc'] = cit_by_doc_list
+		raw_df['co_authors_total'] = co_authors_total_list
+		raw_df['affiliation'] = affiliation_list
+		self.outPut(raw_df)
 
 	def outPut(self, out_df):
 
-		out_df.to_csv(OUT, encoding = 'utf-8')
+		out_df.to_csv(OUT, encoding = 'utf-8', index = False)
 
 def main():
 
